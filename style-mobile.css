@@ -1,0 +1,528 @@
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+    #top-btn{
+        right: 20px;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .page-home .image-header {
+        width: 100%;
+        height: 85%;
+    }
+
+    h1 {
+        font-size: 80px;
+        line-height: 90px;
+        text-align: right;
+    }
+
+    .page-home .title-block {
+        bottom: -10px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .page-home .grey-background {
+        width: 50%;
+        right: 0;
+        position: absolute;
+    }
+
+    .page-home .section2 .text-block {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10%;
+    }
+    h2 {
+        font-size: 40px;
+        padding: 35px 0;
+        line-height: 45px;
+    }
+    h2:before {
+        bottom: 40px;
+    }
+    h2:after {
+        top: 40px;
+    }
+    .page-home .section2 .text-block p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    section {
+        min-height: 100%;
+        height: auto;
+        position: relative;
+    }
+    .section1 {
+        height: 100%;
+    }
+    #page-scroll {
+        overflow: hidden;
+    }
+    #menu-nav {
+        height: 100%;
+        background: white;
+        display: none;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
+    #menu-nav .menu-list{
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-45%);
+    }
+    #menu-nav .menu-list li{
+        width: 100%;
+    }
+    #close-menu {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
+    #close-menu img{
+        width: 100%;
+    }
+    #mobile-nav {
+        height: 80px;
+        z-index: 999;
+        background: white;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+    }
+    #mobile-nav #menu-burger{
+        width: 25px;
+        right: 20px;
+        position: absolute;
+        top: 25px;
+        transform: rotateY(180deg);
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(355deg) brightness(0%) contrast(100%);
+    }
+    #mobile-nav #menu-logo{
+        position: absolute;
+        height: 50px;
+        width: 120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 15px;
+    }
+    .section-footer .block-contact{
+        height: auto !important;
+        flex-direction: column;
+        padding: 0 60px;
+    }
+    .section-footer .block-contact .block-mail, .section-footer .block-contact .block-phone, .section-footer .block-contact .block-address{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .section-footer .block-contact .info{
+        margin: 30px 0 0 0;
+    }
+    .section-footer .block-contact h2 {
+        margin: 50px auto;
+    }
+    .page-home .section2 h2 {
+        margin: auto;
+    }
+    .page-home .section3 .image{
+        position: relative;
+        width: 100%;
+    }
+    .page-home .section3 .text-block {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .page-home .section3 .text-block p {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .page-home .section4 {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .page-home .section4 .bottle-block-left h2, .page-home .section4 .bottle-block-right h2 {
+        margin-top: 10px;
+    }
+    .page-home .section4 .bottle-block-left, .page-home .section4 .text-block, .page-home .section4 .bottle-block-right {
+        position: relative;
+        height: 80%;
+        width: 100%;
+        top: 0;
+        transform: none;
+    }
+    .page-home .section4 .bottle-block-left{
+        margin-bottom: 0px;
+
+    }
+    .page-home .section4 .bottle-block-right {
+        margin-bottom: 60px;
+    }
+    .page-home .section4 .image {
+        height: 300px;
+    }
+    .page-home .section4 .text-block {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .page-home .section4 .bottle-block-left .cta {
+        margin: 40px auto;
+    }
+    .section4 .bottle-block-left{
+        order: 2;
+    }
+    .page-photos .img-info {
+        position: relative;
+    }
+    .page-photos .title-block {
+        bottom: 11.9%;
+        left: 0;
+        right: 30px;
+    }
+    .page-photos .row1v2h-1, .page-photos .row3v-1, .page-photos .row3v-2, .page-photos .row3v-3, .page-photos .row1v1h-1 {
+        width: 100%;
+        height: 66%;
+        margin: 4px 0;
+        position: relative;
+        left: 0;
+    }
+    .page-photos .row1v2h-2, .page-photos .row1v2h-3 {
+        margin: 4px 0;
+        height: 33%;
+        width: 100%;
+        position: relative;
+    }
+    .page-photos .row1v1h-2 {
+        margin: 3px 0;
+        height: 50%;
+        width: 100%;
+        position: relative;
+    }
+    .page-contact .title-block {
+        bottom: 13.9%;
+        left: 0;
+        right: 50px;
+    }
+    .page-contact .image-header {
+        height: 50%;
+        top: 35%;
+    }
+    .page-contact .section2 .form-block {
+        width: 80%;
+        margin: auto;
+        left: 0;
+        transform: none;
+        position: relative;
+        padding-top: 40px;
+    }
+    .page-contact .contact-form {
+        width: 100%;
+    }
+    .page-contact .contact-form .row {
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .page-contact .contact-form .row label{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .page-contact .section3 .acf-map{
+        height: 50%;
+        width: 100%;
+        top: 50%;
+    }
+    .page-contact .section3 .text-block {
+        position: relative;
+        width: 100%;
+        height: 50%;
+        top: 50%;
+    }
+    .page-contact .section3 .text-block h2, .page-contact .section3 .text-block p {
+        width: 80%;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .footer-logo {
+        height: 200px;
+        width: 60%;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right, .footer-middle{
+        width: 100%;
+    }
+    .footer-menu{
+        margin: 20px auto;
+        padding: 0;
+    }
+
+/*domaine*/
+    .page-domaine .image-header{
+        width: 100%;
+    }
+    .page-domaine .title-block {
+        bottom: -10px;
+        left: 0;
+        right: 10px;
+    }
+    .page-domaine .section2 .text-block {
+        height: auto;
+        width: 100%;
+        position: relative;
+        background: #fff;
+        font-family: Spartan normal;
+        padding-bottom: 50px;
+        transform: none;
+    }
+    .page-domaine .section2 .text-block h2 {
+        margin-top: 50px;
+        margin-left: auto;
+    }
+    .page-domaine .section2 .text-block p {
+        padding: 0 10%;
+    }
+    .page-domaine .section2 .image {
+        position: relative;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        max-height: 80vh;
+    }
+
+
+    .page-domaine .section3 {
+        padding-bottom: 50px;
+    }
+    .page-domaine .section3 h2 {
+        top: 50px;
+        max-width: 80%;
+    }
+    .page-domaine .section3 .infos {
+        flex-direction: column;
+        position: relative;
+    }
+    .page-domaine .section3 .infos .block {
+        width: auto;
+    }
+    .page-domaine .section4 h2 {
+        margin: auto;
+    }
+    .page-domaine .section4 .text-block {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10%;
+    }
+    .page-domaine .section4 .text-block p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .page-domaine .section5 .text-block {
+        width: 100%;
+        position: relative;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 1px;
+        transform: none;
+        padding-bottom: 50px;
+    }
+    .page-home .section5{
+        min-height: 180vh ;
+    }
+    .page-home .section5 .photo1 {
+        height: calc( 60vh - 2px );
+        width: 100%;
+        top: 2px;
+    }
+    .page-home .section5 .photo2 {
+        left: 0;
+        height: calc( 60vh - 2px );
+        width: 100%;
+        top: calc( 60vh + 2px );
+    }
+    .page-home .section5 .photo3 {
+        height: calc( 60vh - 2px );
+        width: 100%;
+        top: calc( 120vh + 2px );
+    }
+    .page-home .section5 .block-cta {
+        width: 100%;
+    }
+    .page-domaine .section5 .text-block h2 {
+        margin: auto;
+    }
+    .page-domaine .section5 .image {
+        width: 100%;
+        position: relative;
+        max-height: 80%;
+    }
+
+    /*vins*/
+    .page-vins .image-header{
+        width: 100%;
+    }
+    .page-vins .title-block {
+        right: 20px;
+        width: 50%;
+        left: auto;
+        bottom: -10px;
+    }
+    .page-vins .section2 h2 {
+        margin: auto;
+    }
+    .page-vins .section2 .text-block {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10%;
+    }
+    .page-vins .section2 .text-block p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .page-vins .section3 {
+        padding-top: 50px
+    }
+    .page-vins .section3 .text-block {
+        height: auto;
+        bottom: auto;
+        display: block;
+        position: relative;
+    }
+    .page-vins .section3 .text-block-1, .page-vins .section3 .text-block-2 {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .page-vins .section3 .text-block-1 h3, .page-vins .section3 .text-block-2 h3{
+        margin-bottom: 20px
+    }
+    .page-vins .section4{
+        display: flex;
+        flex-direction: column;
+    }
+    .page-vins .section4 .subtitle, .page-vins .section5 .subtitle {
+        margin-top: 10%;
+    }
+    .page-vins .section4 .image{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        order: 2;
+    }
+    .page-vins .section4 .text-block{
+        position: relative;
+        width: 100%;
+    }
+    .page-vins .section4 h2 {
+        margin-bottom: 10px;
+    }
+    .page-vins .section4 .cuve-infos {
+        width: 80%;
+        margin-bottom: 15%;
+    }
+    .page-vins .section4 .infos {
+        width: 80%;
+    }
+    .page-vins .section4 .infos .picto {
+
+    }
+    .page-vins .section4 .infos p {
+        line-height: normal;
+    }
+    .page-vins .section4 .infos .info-1, .page-vins .section4 .infos .info-2{
+        margin-bottom: 50px;
+    }
+
+    .page-vins .section5{
+        display: flex;
+        flex-direction: column;
+    }
+    .page-vins .section5 .image{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        order: 2;
+    }
+    .page-vins .section5 .text-block{
+        position: relative;
+        width: 100%;
+    }
+    .page-vins .section5 h2 {
+        margin-bottom: 10px;
+    }
+    .page-vins .section5 .cuve-infos {
+        width: 80%;
+        margin-bottom: 15%;
+    }
+    .page-vins .section5 .infos {
+        width: 80%;
+    }
+    .page-vins .section5 .infos .picto {
+
+    }
+    .page-vins .section5 .infos p {
+        line-height: normal;
+    }
+    .page-vins .section5 .infos .info-1, .page-vins .section5 .infos .info-2{
+        margin-bottom: 50px;
+    }
+    /*page mentions*/
+    .page-mentions .section1{
+        min-height: 30%;
+        height: 30%;
+        margin-bottom: 50px;
+    }
+    .page-mentions .section1 h1{
+        font-size: 28px;
+        line-height: 50px;
+        bottom: -13px;
+        width: 70%;
+        text-align: left;
+    }
+    .page-mentions .section2, .page-mentions .section3, .page-mentions .section4, .page-mentions .section5, .page-mentions .section6{
+        flex-direction: column;
+        /*min-height: auto;*/
+    }
+    .page-mentions .section2 .left {
+        margin-bottom: 50px;
+    }
+    .footer-logo-container {
+        margin: auto;
+        width: 60%;
+    }
+    .footer-menu .menu-item {
+        padding: 10px;
+    }
+    .footer-menu .menu-item.insta {
+        transform: translateX(-10px);
+    }
+    .footer-middle .footer-menu .menu-item {
+        padding: 12px;
+    }
+}
