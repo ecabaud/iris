@@ -12,7 +12,7 @@
 echo "<div id='page-scroll' class='page-domaine'>";
 
 get_header();
-//test
+
 $section1 = get_field('section1');
 $section2 = get_field('section2');
 $section3 = get_field('section3');
