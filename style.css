@@ -1178,13 +1178,14 @@ input[type="checkbox"]:checked + span label:after {
     background-color: #323232;
 }
 .page-vins .section4 .image {
-    height: 65%;
-    top: 25%;
+    height: 80%;
+    top: 10%;
     width: 35%;
     position: absolute;
-    left: 0;
+    left: 8%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .page-vins .section4 .text-block {
     height: 100%;
@@ -1264,13 +1265,14 @@ input[type="checkbox"]:checked + span label:after {
 }
 
 .page-vins .section5 .image {
-    height: 65%;
-    top: 25%;
+    height: 80%;
+    top: 10%;
     width: 35%;
     position: absolute;
-    right: 0;
+    right: 8%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .page-vins .section5 .text-block {
     height: 100%;
@@ -1379,6 +1381,14 @@ input[type="checkbox"]:checked + span label:after {
 }
 .page-mentions h2::before, .page-mentions h2::after{
     content: none;
+}
+
+.page-mentions input[type="checkbox"] {
+    opacity: 1;
+    position: relative;
+    height: inherit;
+    width: inherit;
+    transform: inherit;
 }
 @media (max-width: 1370px) {
     .page-home .section4 {

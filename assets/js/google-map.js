@@ -18,12 +18,12 @@
 
         // Create gerenic map.
         var mapArgs = {
-            zoom        : 10,
+            zoom        : 11,
             mapTypeId   : google.maps.MapTypeId.ROADMAP,
             disableDefaultUI: true,
             zoomControl: true,
             scrollwheel: false,
-            mapId: '6cb91b76d03269da'
+            mapId: '188556fc3ee22654'
         };
         var map = new google.maps.Map( $el[0], mapArgs );
 
