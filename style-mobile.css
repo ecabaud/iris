@@ -11,6 +11,7 @@
     .page-home .image-header {
         width: 100%;
         height: 85%;
+        background-position: -15px;
     }
 
     h1 {
@@ -65,7 +66,7 @@
         height: 100%;
     }
     #page-scroll {
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
     #menu-nav {
         height: 100%;
@@ -97,7 +98,7 @@
     }
     #mobile-nav {
         height: 80px;
-        z-index: 999;
+        z-index: 9999;
         background: white;
         position: fixed;
         width: 100vw;
@@ -186,11 +187,19 @@
     .section4 .bottle-block-left{
         order: 2;
     }
+    .page-photos section:not(.section1){
+        display: inline;
+    }
+    .page-photos .image-header{
+        width: 100%;
+        left: 0;
+        transform: none;
+    }
     .page-photos .img-info {
         position: relative;
     }
     .page-photos .title-block {
-        bottom: 11.9%;
+        bottom: 78px;
         left: 0;
         right: 30px;
     }
@@ -214,13 +223,14 @@
         position: relative;
     }
     .page-contact .title-block {
-        bottom: 13.9%;
+        bottom: 91px;
         left: 0;
         right: 50px;
     }
     .page-contact .image-header {
         height: 50%;
         top: 35%;
+        width: 100%;
     }
     .page-contact .section2 .form-block {
         width: 80%;
@@ -229,6 +239,7 @@
         transform: none;
         position: relative;
         padding-top: 40px;
+        top: 0;
     }
     .page-contact .contact-form {
         width: 100%;
@@ -246,6 +257,9 @@
         height: 50%;
         width: 100%;
         top: 50%;
+    }
+    .page-contact .section3 .text-container{
+        transform: none;
     }
     .page-contact .section3 .text-block {
         position: relative;
@@ -286,6 +300,9 @@
         bottom: -10px;
         left: 0;
         right: 10px;
+    }
+    .page-domaine .section2{
+        min-height: 0;
     }
     .page-domaine .section2 .text-block {
         height: auto;
@@ -434,10 +451,14 @@
         width: 100%;
         height: 400px;
         order: 2;
+        left: 0;
+        top: 0;
+        margin-bottom: 30px;
     }
     .page-vins .section4 .text-block{
         position: relative;
         width: 100%;
+        overflow: hidden;
     }
     .page-vins .section4 h2 {
         margin-bottom: 10px;
@@ -468,6 +489,9 @@
         width: 100%;
         height: 400px;
         order: 2;
+        right: 0;
+        top: 0;
+        margin-bottom: 30px;
     }
     .page-vins .section5 .text-block{
         position: relative;
@@ -495,14 +519,14 @@
     /*page mentions*/
     .page-mentions .section1{
         min-height: 30%;
-        height: 30%;
+        height: 40%;
         margin-bottom: 50px;
     }
     .page-mentions .section1 h1{
         font-size: 28px;
         line-height: 50px;
         bottom: -13px;
-        width: 70%;
+        width: 90%;
         text-align: left;
     }
     .page-mentions .section2, .page-mentions .section3, .page-mentions .section4, .page-mentions .section5, .page-mentions .section6{
@@ -511,6 +535,9 @@
     }
     .page-mentions .section2 .left {
         margin-bottom: 50px;
+    }
+    .page-mentions #footer{
+        height: auto;
     }
     .footer-logo-container {
         margin: auto;

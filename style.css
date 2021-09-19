@@ -42,6 +42,10 @@ body{
     font-size: 14px;
     line-height: 21px;
     margin: 0px;
+    height: 100vh;
+}
+body > #page, body > #page > .site-content, body > #page > .site-content > #page-scroll {
+    height: inherit;
 }
 body.page-template-page-mentions, html{
     overflow: visible !important;
@@ -748,6 +752,9 @@ input[type="checkbox"]:checked + span label:after {
 }
 
 /*page photos*/
+.page-photos section  {
+    margin-bottom: 2px;
+}
 .page-photos .grey-background{
     height: 65%;
     width: 100%;
@@ -1390,6 +1397,9 @@ input[type="checkbox"]:checked + span label:after {
     width: inherit;
     transform: inherit;
 }
+.page-mentions #footer{
+    height: 320px;
+}
 @media (max-width: 1370px) {
     .page-home .section4 {
         height: 130%;
@@ -1403,9 +1413,10 @@ input[type="checkbox"]:checked + span label:after {
     }
 
     .page-vins .section4, .page-vins .section5 {
-        height: 120%;
+        height: auto;
     }
     .page-contact .section2 {
-        height: 150%;
+        height: auto;
+        padding-bottom: 50px;
     }
 }

@@ -3,6 +3,8 @@
  * The template for displaying contact
  * Template Name: Contact
  */
+get_header();
+
 ?>
 <div id="top-btn" class="cta" style="display: none;">
     <div class="img"></div>
@@ -10,7 +12,6 @@
 <?php
 echo "<div id='page-scroll' class='page-contact'>";
 
-get_header();
 
 $section1 = get_field('section1');
 $section2 = get_field('section2');

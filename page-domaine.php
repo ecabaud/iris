@@ -3,6 +3,8 @@
  * The template for displaying domaine
  * Template Name: Domaine
  */
+get_header();
+
 ?>
 <div id="top-btn" class="cta" style="display: none;">
     <div class="img"></div>
@@ -11,7 +13,6 @@
 <?php
 echo "<div id='page-scroll' class='page-domaine'>";
 
-get_header();
 //test
 $section1 = get_field('section1');
 $section2 = get_field('section2');
@@ -22,7 +23,7 @@ $section6 = get_field('sectionFooter');
 //section1
 echo "<section class='section1'>";
 echo "<div class='grey-background'></div>";
-echo "<div class='title-block' data-aos-delay='300' data-aos='fade-in' data-aos-duration='1500' data-aos-anchor-placement='bottom-bottom'>";
+echo "<div class='title-block' data-aos-delay='300' data-aos='fade-in' data-aos-duration='1500' data-aos-anchor-placement='top-bottom'>";
 echo "<h1>" . $section1['title'] . "</h1>";
 echo "</div>";
 echo "<div class='image-header' style=\"background-image: url('" . $section1['image']['url'] . "')\"></div>";

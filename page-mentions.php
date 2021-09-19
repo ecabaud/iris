@@ -3,6 +3,8 @@
  * The template for displaying mentions
  * Template Name: Mentions Légales
  */
+get_header();
+
 ?>
 <div id="top-btn" class="cta" style="display: none;">
     <div class="img"></div>
@@ -10,7 +12,6 @@
 <?php
 echo "<div id='page-scroll' class='page-mentions'>";
 
-get_header();
 
 $section2 = get_field('section1');
 $section3 = get_field('section2');
