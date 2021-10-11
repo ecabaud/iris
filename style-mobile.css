@@ -12,16 +12,17 @@
         width: 100%;
         height: 85%;
         background-position: -15px;
+        bottom: 13%;
     }
 
     h1 {
         font-size: 80px;
-        line-height: 90px;
+        line-height: 72px;
         text-align: right;
     }
 
     .page-home .title-block {
-        bottom: -10px;
+        bottom: 13%;
     }
 
     h3 {
@@ -199,7 +200,7 @@
         position: relative;
     }
     .page-photos .title-block {
-        bottom: 78px;
+        bottom: 13%;
         left: 0;
         right: 30px;
     }
@@ -223,13 +224,14 @@
         position: relative;
     }
     .page-contact .title-block {
-        bottom: 91px;
+        bottom: 13%;
         left: 0;
         right: 50px;
     }
     .page-contact .image-header {
         height: 50%;
-        top: 35%;
+        bottom: 13%;
+        top: auto;
         width: 100%;
     }
     .page-contact .section2 .form-block {
@@ -295,9 +297,10 @@
 /*domaine*/
     .page-domaine .image-header{
         width: 100%;
+        bottom: 13%;
     }
     .page-domaine .title-block {
-        bottom: -10px;
+        bottom: 13%;
         left: 0;
         right: 10px;
     }
@@ -316,6 +319,7 @@
     .page-domaine .section2 .text-block h2 {
         margin-top: 50px;
         margin-left: auto;
+        max-width: 80vw;
     }
     .page-domaine .section2 .text-block p {
         padding: 0 10%;
@@ -391,6 +395,7 @@
     }
     .page-domaine .section5 .text-block h2 {
         margin: auto;
+        max-width: 80vw;
     }
     .page-domaine .section5 .image {
         width: 100%;
@@ -401,12 +406,13 @@
     /*vins*/
     .page-vins .image-header{
         width: 100%;
+        bottom: 13%;
     }
     .page-vins .title-block {
         right: 20px;
         width: 50%;
         left: auto;
-        bottom: -10px;
+        bottom: 13%;
     }
     .page-vins .section2 h2 {
         margin: auto;

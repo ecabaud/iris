@@ -762,7 +762,7 @@ input[type="checkbox"]:checked + span label:after {
 }
 .page-photos .image-header{
     position: absolute;
-    top: 22%;
+    bottom: 13%;
     left: 50%;
     transform: translateX(-50%);
     height: 65%;

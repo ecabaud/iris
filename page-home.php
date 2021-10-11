@@ -22,7 +22,7 @@ $section_footer = get_field('sectionFooter');
 //section1
 echo "<section class='section1'>";
 echo "<div class='grey-background'></div>";
-echo "<div class='title-block' data-aos-delay='300' data-aos='fade-in' data-aos-duration='1500' >";
+echo "<div class='title-block' data-aos-delay='300' data-aos='fade-in' data-aos-duration='1500' data-aos-anchor-placement='top-bottom'>";
 echo "<h3>" . $section1['uptitle'] . "</h3>";
 echo "<h1>" . $section1['title'] . "</h1>";
 echo "</div>";
