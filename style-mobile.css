@@ -558,4 +558,9 @@
     .footer-middle .footer-menu .menu-item {
         padding: 12px;
     }
+    .page-404{
+        display: flex;
+        padding-top: 80px;
+        height: calc(100% - 80px);
+    }
 }
